@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/splash_screen.xml" value="0.2076923076923077" />
       </map>
     </option>
   </component>

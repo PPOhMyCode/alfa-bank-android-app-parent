@@ -14,16 +14,18 @@
         android:theme="@style/Theme.Alfabankandroidappparent"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.SplashScreenActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Alfabankandroidappparent.NoActionBar">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.Alfabankandroidappparent.NoActionBar" />
     </application>
 
 </manifest>
