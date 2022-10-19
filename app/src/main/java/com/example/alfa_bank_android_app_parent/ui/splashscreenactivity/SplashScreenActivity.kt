@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.alfa_bank_android_app_parent.MainActivity
 import com.example.alfa_bank_android_app_parent.R
+import com.example.alfa_bank_android_app_parent.ui.authentication.AuthenticationActivity
 import com.example.alfa_bank_android_app_parent.ui.authorization.AuthorizationActivity
 import java.util.*
 import kotlin.concurrent.schedule
@@ -20,17 +21,16 @@ class SplashScreenActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this)[SplashScreenViewModel::class.java]
         Timer().schedule(1000){
             if(viewModel.preferences.isUserLogged){
-                goToMainActivity()
+                goToAuthenticationActivity()
             }else{
                 goToAuthorizationActivity()
             }
-
             finish()
         }
     }
 
-    private fun goToMainActivity(){
-        val intent = Intent(this, MainActivity::class.java)
+    private fun goToAuthenticationActivity(){
+        val intent = Intent(this, AuthenticationActivity::class.java)
         this.startActivity(intent)
     }
 

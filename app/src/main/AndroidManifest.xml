@@ -27,6 +27,7 @@
             android:name=".MainActivity"
             android:theme="@style/Theme.Alfabankandroidappparent.NoActionBar" />
         <activity android:name=".ui.authorization.AuthorizationActivity" />
+        <activity android:name=".ui.authentication.AuthenticationActivity"/>
     </application>
 
 </manifest>

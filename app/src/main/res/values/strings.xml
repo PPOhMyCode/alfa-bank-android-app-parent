@@ -14,4 +14,5 @@
     <string name="input_login">Введите логин</string>
     <string name="input_password">Введите пароль</string>
     <string name="logIn">Авторизоваться</string>
+    <string name="one">1</string>
 </resources>
