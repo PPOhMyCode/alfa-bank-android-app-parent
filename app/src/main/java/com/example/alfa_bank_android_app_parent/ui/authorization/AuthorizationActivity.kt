@@ -28,14 +28,10 @@ class AuthorizationActivity : AppCompatActivity() {
 
     private fun initializeOnClickListener() {
         buttonAuthorization.setOnClickListener {
-            viewModel.preferences.isUserLogged = true
-            goToAuthenticationActivity()
+
+            val intent = AuthenticationActivity.newIntentInputFirstTimePinCode(this)
+            this.startActivity(intent)
             finish()
         }
-    }
-
-    private fun goToAuthenticationActivity(){
-        val intent = Intent(this, AuthenticationActivity::class.java)
-        this.startActivity(intent)
     }
 }

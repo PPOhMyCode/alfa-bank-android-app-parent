@@ -4,4 +4,5 @@ import android.content.Context
 
 abstract class Preferences(context: Context) {
     abstract var isUserLogged : Boolean
+    abstract var userPinCode: Int
 }
