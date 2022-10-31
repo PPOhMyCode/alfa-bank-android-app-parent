@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.example.alfa_bank_android_app_parent.MainActivity
 import com.example.alfa_bank_android_app_parent.R
+import com.example.alfa_bank_android_app_parent.ui.authentication.AuthenticationActivity
 
 class AuthorizationActivity : AppCompatActivity() {
     private lateinit var viewModel: AuthorizationViewModel
@@ -27,14 +28,10 @@ class AuthorizationActivity : AppCompatActivity() {
 
     private fun initializeOnClickListener() {
         buttonAuthorization.setOnClickListener {
-            viewModel.preferences.isUserLogged = true
-            goToMainActivity()
+
+            val intent = AuthenticationActivity.newIntentInputFirstTimePinCode(this)
+            this.startActivity(intent)
             finish()
         }
-    }
-
-    private fun goToMainActivity(){
-        val intent = Intent(this, MainActivity::class.java)
-        this.startActivity(intent)
     }
 }

@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.alfa_bank_android_app_parent">
 
+    <uses-permission android:name="android.permission.USE_BIOMETRIC"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -27,6 +30,7 @@
             android:name=".MainActivity"
             android:theme="@style/Theme.Alfabankandroidappparent.NoActionBar" />
         <activity android:name=".ui.authorization.AuthorizationActivity" />
+        <activity android:name=".ui.authentication.AuthenticationActivity"/>
     </application>
 
 </manifest>

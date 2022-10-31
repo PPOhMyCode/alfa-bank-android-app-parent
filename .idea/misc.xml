@@ -3,10 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/drawable/ic_baseline_fingerprint_24.xml" value="0.149" />
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/drawable/ic_baseline_full_circle_24.xml" value="0.149" />
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/activity_authentication.xml" value="0.4" />
         <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/activity_authorization.xml" value="0.264" />
         <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/app_bar_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/content_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/item_recyclerview_authentication.xml" value="0.4" />
+        <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/item_recyclerview_authentication_length_pin.xml" value="0.253125" />
         <entry key="..\:/Users/adasd/Desktop/PPOhMyCode/alfa-bank-android-app-parent/app/src/main/res/layout/splash_screen.xml" value="0.2076923076923077" />
       </map>
     </option>
